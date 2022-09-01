@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=o_i5KMq1b2zx4PKiKZAh9_N5XAFD8GD8O9kDE4RwPklvIn9BfwaW4RRhWUm0iIM4OkeCrhCBYV9NAQlTl5aQuw" charset="UTF-8"></script>
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+    body {font-size:16px;}
+    .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+    .w3-half img:hover{opacity:1}
+    </style>
+  </head>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;  background-color:#003399;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  
+  <div class="w3-container">
+
+    <h3 class="w3-padding-64"><b>GTSignatures</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+  <span>GT Signatures</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+<div>
+<img src:"gtlogo.png">
+<div>
+
+
+  <div class="w3-container" style="margin-top:80px" id="about">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>About.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>GT Signatures Brand brings years of experience in designing and manufacturing furniture products with commitment to produce quality products and implement positive change. GT Signatures has a quality system designed for the home, office and workplaces, with the emphasis on ensuring consistent product quality and continuous improvement. This innovative approach enables us to significantly increase efficiency, adapting latest technology and remain competitive in today’s ever-changing marketplace. We are specialized in home and office furniture including Seating, Tables, chairs, Desks, Seating, Workstations and Institutional furniture. We have a legacy of generations Manufacturing Quality furniture.
+    </p>
+  </div>
+  
+ 
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>We are keen on client satisfaction. We offer top notch interior design services and manufacture products with high quality and long last durability at an affordable cost.
+       We also offer at up to one year warranty on our products. We offer after sales services to clients with any issues with the furniture. 
+       We offer a year warranty on our furniture. This warranty does not cover normal wear and tear on the furniture or damage that has arisen due to improper use. 
+       In some cases, certain fees may apply to the services rendered.
+    </p>
+    <p><b>Our services include:</b></p>
+  </div>
+      <!-- Services list -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3><img src="servicesicon.png" alt="services" style="width:50px">Interior Design</h3>
+          <p class="w3-opacity">Beauty</p>
+          <p>We provide services that cut across initial concepts, mood boards, CAD design, 2D and 3D rending, space plans and furniture design. 
+	     Our design team consists of skillful individuals who combine creativity, nature and the beauty of art to create quality, 
+	     functional and sustainable designs that impact on health, wellness, productivity, education as well as lifestyle.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>
+        <img src="furnitureicon.png" alt="furniture" style="width:50px">Furniture Making</h3>
+          <p class="w3-opacity">Structure</p>
+          <p>We are keen on client satisfaction. We offer top notch interior design services and manufacture products with high quality and long last durability at an affordable cost. 
+             We also offer at up to one year warranty on our products. 
+             Our manufacturing operations are divided into Carpentry and Upholstery (This is the mainstay of our soft furnishings i.e. sofas, ottomans etc).</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>
+        <img src="insticon.png" alt="Mike" style="width:50px">Installation</h3>
+          <p class="w3-opacity">Fitting</p>
+          <p>The delivery and installation of our order is top priority for us, so we handle it with utmost professionalism. 
+             Our installation team are highly skilled professionals who are trained to pay attention to detail in order to deliver an exceptional quality finish to the client. 
+             We offer you the best.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Showcase -->
+  <div class="w3-container" id="showcase" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Showcase.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>We are committed to providing after-sale services to our clients including installation of products, 
+       training and orientation of product usage as well as delivery services within Lagos. 
+       We also assist our clients to identify their needs and produce specifically to meet such requirements. All these are possible because of the flexibility of our modern equipment.
+    </p>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="https://www.gtsignatures.com/img/portfolio/dinn.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="https://www.gtsignatures.com/img/portfolio/off.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="https://www.gtsignatures.com/img/portfolio/kit.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="https://www.gtsignatures.com/img/portfolio/bed.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="https://www.gtsignatures.com/img/portfolio/bes.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="https://www.gtsignatures.com/img/portfolio/ent.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+   
+  </div>
+
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>We pay close attention to your specifications, budget and time limitations. We strive confidently and always to offer absolute client satisfaction that no one else can offer. We believe in helping customers to make the right decision when selecting or customising their products.</p>
+  </div>
+
+<div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+       <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-teal w3-xlarge w3-padding-32"><img src="call.png" alt="services" style="width:50px"></li>
+        <li class="w3-padding-16">
+          <h2>Phone Number</h2>
+          <span class="w3-opacity">+234-706-957-7191</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Call</button>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-teal w3-xlarge w3-padding-32"><img src="email.png" alt="services" style="width:50px"></li>
+        <li class="w3-padding-16">
+          <h2>E-Mail Address</h2>
+          <span class="w3-opacity">info@gtsignatures.com</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Mail</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="w3-row-padding">
+<div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-teal w3-xlarge w3-padding-32"><img src="text.png" alt="contact" style="width:50px"></li>
+        <li class="w3-padding-16">
+          <h2>Text Message</h2>
+          <span class="w3-opacity">+234-706-957-7191</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Message</button>
+        </li>
+      </ul>
+    </div>
+     <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-teal w3-xlarge w3-padding-32"><img src="location.png" alt="services" style="width:50px"></li>
+        <li class="w3-padding-16">
+          <h2>Address</h2>
+          <span class="w3-opacity">35 Aguntasolo Street, Surulere, Lagos</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large w3-hover-black">Locate</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">©2022 GTSignatures <br>Designed by <a href="https://emmanueloladosu.com">Emmanuel Oladosu</a></p>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
